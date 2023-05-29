@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    border: 1px solid red;
+
+    height: 100%;
+}
+
+.top {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medio {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    height: 100%;
+    
+}
+
+.izq, .der, .centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+
+}
+
